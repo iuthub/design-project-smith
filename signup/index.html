@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="assets/css/user.css">
+    <link rel="stylesheet" href="assets/bootstrap/fonts/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default custom-header">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button><a class="navbar-brand navbar-link" href="../../IP project/home/index.html">Announcement<span>Board </span> </a></div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#"> <span class="caret"></span><img src="assets/img/avatar.jpg" class="dropdown-image"></a>
+                        <ul class="dropdown-menu dropdown-menu-right" role="menu">
+                            <li><a href="#">profile </a></li>
+                            <li class="active"><a href="#">Logout </a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right links">
+                    <li role="presentation"></li>
+                    <li role="presentation"><a href="#" class="custom-navbar"> About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="form1">
+        <form action="../backend/registration.php" method="POST" class="bootstrap-form-with-validation">
+            <h2 class="text-center bg-primary">Registration </h2>
+             
+                <label class="control-label" for="text-input">Name </label>
+                <input class="form-control" type="text" name="name" required="" placeholder="Name" autofocus="" id="Name">
+             
+
+             
+                <label class="control-label" for="text-input">Surname </label>
+                <input class="form-control" type="text" name="sname" required="" placeholder="Surname" autofocus="" id="Sname">
+             
+                <label class="control-label" for="text-input">Login </label>
+                <input class="form-control" type="text" name="login" required="" placeholder="Login" autofocus="" id="Login">
+           
+
+            
+                <label class="control-label" for="password-input">Password</label>
+                <input class="form-control" type="password" name="password" required="" placeholder="Password" autofocus="" id="Password">
+            
+             
+           
+            <div class="form-group">
+                <div class="checkbox">
+                    <label class="control-label" for="checkbox-input">
+                        <input type="checkbox" name="checkbox-input" required>I`m no Robot</label>
+                </div>
+            </div>
+            
+          <a href="../home/index.html"><button class="btn btn-primary" type="submit">Sign up</button></a>
+             
+        </form>
+    </div>
+    <div>
+        <footer>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 footer-navigation">
+                    <h3><a href="#" id="footerBoard">Announcement<span>Board </span></a></h3>
+                    <p class="links"><a href="#">Home</a><strong> · </strong><a href="#">Event </a><strong> · </strong><a href="#">Contest </a><strong> · </strong><a href="#">Sports </a><strong> · </strong><a href="#">Activities </a><strong> · </strong><a href="#">About </a></p>
+                    <p
+                    class="company-name">Inha University © 2018 </p>
+                </div>
+                <div class="col-md-4 col-sm-6 footer-contacts">
+                    <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                        <p><span class="new-line-span">9 Ziyolilar Street</span> Tashkent, Uzbekistan</p>
+                    </div>
+                    <div><span class="fa fa-phone footer-contacts-icon"></span>
+                        <p class="footer-center-info email text-left"> +998712899999</p>
+                    </div>
+                    <div><span class="fa fa-envelope footer-contacts-icon"></span>
+                        <p> <a href="#" target="_blank">inha@gmail.com</a></p>
+                    </div>
+                </div>
+                <div class="clearfix visible-sm-block"></div>
+                <div class="col-md-4 footer-about">
+                    <h4>About the board</h4>
+                    <p>Announcements of INHA universtiy in Tashkent</p>
+                    <div class="social-links social-icons"><a href="#"><span class="fa fa-facebook"></span></a><a href="#"><span class="fa fa-twitter"></span></a><a href="#"><span class="fa fa-linkedin"></span></a><a href="#"><span class="fa fa-github"></span></a></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
