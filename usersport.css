@@ -1,0 +1,25 @@
+body{
+  background:#292C2F;
+}
+
+#top{
+  display:inline;
+  background:#292c2f;
+  color:#F0FFF0;
+  margin:10px;
+  font:42px Comic Sans MS;
+}
+
+a{
+  color:#F0FFF0;
+}
+
+#search{
+  margin:10px;
+  text-align:right;
+}
+
+#column{
+  opacity:0.95;
+}
+
